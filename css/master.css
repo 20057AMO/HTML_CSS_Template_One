@@ -400,15 +400,28 @@ body {
 
 @media (max-width:767px) {
     .about-content .image{
-      position: relative;
-      width: auto;
+        display: flex;
+        align-items: center;
     }
     .about-content .image img{
+        display: flex;
+        justify-content: center;
+        margin-right: 55px;
         margin-top: 50px ;
         margin-left: 68px;
     }
 } 
-
+@media (max-width: 636px){
+    .about-content{
+        align-items: center;
+    }
+    .about-content .image{
+        justify-content: center
+    }
+    .about-content .image img{
+        margin-right: 54px;
+    }
+}
 .about-content .image {
     position: relative;
     width: 250px;
