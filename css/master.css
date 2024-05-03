@@ -509,7 +509,15 @@ body {
     margin-left: 10px;
     color: var(--secondary-color);
 }
-
+.contact .info .social i:first-child{
+    color: red;
+}
+.contact .info .social i:nth-child(2){
+    color: blue;
+}
+.contact .info .social i:last-child{
+    color: #333;
+}
 @media (max-width:767px) {
 
     .contact .info .label,
